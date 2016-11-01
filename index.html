@@ -6,10 +6,19 @@
 <body>
   <h1>Welcome to the Carnival!</h1>
 
-  Place an image of a carnival here. <br>
-  <img src="https://placeholdit.imgix.net/~text?txtsize=47&txt=500%C3%97500&w=500&h=500" /> <br><br>
-
-  Ask the person how old they have to be to go on the ride, and how old they are here.<br><br>
-  When they click a button, tell them if they can go on the ride.<br><br>
+  <img src="http://weknowyourdreams.com/images/carnival/carnival-06.jpg" width="70%" /> <br><br>
+  
+  <form>
+    <p>How old do you have to be to go on the ride?</p>
+    <input id="min_age" type="text" name="min-age"/> <br>
+    <p>How old are you?</p>
+    <input id="age" type="text" name="your-age"/> <br>
+    <br>
+    <input type="submit" value="submit">
+  </form>
+  <div id="result"></div>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+<script type="text/javascript" src="index.js"></script>
 </body>
 </html>
