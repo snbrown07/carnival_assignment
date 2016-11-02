@@ -1,4 +1,5 @@
 $('form').on('submit', function(){
+      event.preventDefault();
       var minAge = parseInt($("#min_age").val());
       var age = parseInt ($("#age").val());
       if(age >= minAge) {
